@@ -1,5 +1,7 @@
 package it.polito.tdp.extflightdelays.model;
 
+
+
 public class TestModel {
 
 	public static void main(String[] args) {
@@ -11,6 +13,7 @@ public class TestModel {
 		else
 			System.out.println("Non connessi");
 		System.out.println(model.trovaPercorso(11, 297));
+	
 	}
 
 }

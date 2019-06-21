@@ -1,6 +1,7 @@
 package it.polito.tdp.extflightdelays.model;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -136,6 +137,8 @@ public class Model {
 			step= visita.get(step);
 		}
 		percorso.add(step);
+		//per invertire la lista
+		Collections.reverse(percorso);
 		return percorso;
 	}
 }
