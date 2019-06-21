@@ -135,6 +135,7 @@ public class Model {
 			percorso.add(step);
 			step= visita.get(step);
 		}
+		percorso.add(step);
 		return percorso;
 	}
 }
